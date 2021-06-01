@@ -42,7 +42,21 @@ UpdateServiceById = (id) => {
 
 
     render(){
-        let Service = <h3> </h3>
+        let Service =  <div className="main-container">
+        <div className="first-container share">
+                    <h1> <span>N</span>
+                   <span>O</span>
+                   <span>S</span>
+                   <span>E</span>
+                   <span>R</span>
+                   <span>V</span>
+                   <span>I</span>
+                   <span>C</span>
+                   <span>E</span>
+                   <span>S</span>
+                        </h1></div>
+    
+                        </div>
         if(this.state.Service.length > 0 ){
             Service = this.state.Service.map((Services , index )=> {
             return(
@@ -57,7 +71,7 @@ UpdateServiceById = (id) => {
             );
         })}
       return(
-          <div className="allServices">
+          <div className="allServices" >
               {Service}    
           </div>
           );

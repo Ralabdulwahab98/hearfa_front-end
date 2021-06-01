@@ -40,7 +40,22 @@ export default class RequestServices extends React.Component {
 
   render() {
     // variable to show when there no Services in the array 
-    let allServices = <h3> No Services! :( </h3>;
+    let allServices = 
+    <div className="main-container">
+    <div className="first-container share">
+                <h1> <span>N</span>
+               <span>O</span>
+               <span>S</span>
+               <span>E</span>
+               <span>R</span>
+               <span>V</span>
+               <span>I</span>
+               <span>C</span>
+               <span>E</span>
+               <span>S</span>
+                    </h1></div>
+
+                    </div>
  // if condtion to check the array is greater than zero return and pass the data to RequestService components 
     if (this.state.cus_RequestServices.length > 0) {
       allServices = this.state.cus_RequestServices.map((Services, index) => {
