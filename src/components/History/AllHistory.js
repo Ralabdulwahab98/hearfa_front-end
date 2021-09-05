@@ -48,7 +48,21 @@ export default class AllHistory extends React.Component {
    }
 
     render(){ 
-      let AllHistory 
+      let AllHistory =  
+      <div className="main-container">
+      <div className="first-container share">
+                  <h1> <span>N</span>
+                 <span>O</span>
+                 <span>S</span>
+                 <span>E</span>
+                 <span>R</span>
+                 <span>V</span>
+                 <span>I</span>
+                 <span>C</span>
+                 <span>E</span>
+                 <span>S</span>
+                      </h1></div>
+                      </div>
           if(this.state.History.length > 0 ){
             AllHistory= this.state.History.map( (Services , index)=> {
               return(

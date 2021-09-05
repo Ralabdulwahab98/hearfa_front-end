@@ -21,7 +21,21 @@ export default class ContainerOfWaitingService extends Component {
         })
     }
     render() {
-        let AllWaitingList = <h3>  </h3>
+        let AllWaitingList =  <div className="main-container">
+        <div className="first-container share">
+                    <h1> <span>N</span>
+                   <span>O</span>
+                   <span>S</span>
+                   <span>E</span>
+                   <span>R</span>
+                   <span>V</span>
+                   <span>I</span>
+                   <span>C</span>
+                   <span>E</span>
+                   <span>S</span>
+                        </h1></div>
+    
+                        </div>
         if(this.state.WaitingList.length > 0 ){
             AllWaitingList = this.state.WaitingList.map((WaitingLists , index )=> {
             return(
